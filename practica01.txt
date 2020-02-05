@@ -1,0 +1,43 @@
+Julián Ángel Pérez Muñoz
+
+************************
+https://www.apple.com/es
+************************
+	--------
+	errores:
+	--------
+		* Error1: Duplicate attribute data-search-locale -> ha duplicado un atributo en un mismo elemento y eso no esta peromido. 
+
+		* Error2: Bad value text for attribute role on element h5 -> no existe el valor que esta buscando el atributo text. 
+
+		* Error3: The aria-owns attribute must point to an element in the same document.-> el atributo arias-owns debe apuntar a un elemento que este en el mismo documento, por lo que o no esta en el mismo documento o no existe. 
+
+	-----------
+	Soluciones:
+	-----------
+		* Solucion1: quitarlo y dejar solo 1 atributo de ese tipo
+		
+		* Solucion2: poner dentro del atributo role un valor existente.
+
+		* Solucion3: sustituir el valor por uno existente o que este en el mismo documento.
+
+*******************
+https://elpais.com/
+*******************
+	--------
+	errores:
+	--------
+		* Error1:The scheme attribute on the meta element is obsolete. Use only one scheme per field, or make the scheme declaration part of the value -> el atributo scheme en el elemento meta esta obsoleto 
+
+		* Error2: An element with role=menuitem must be contained in, or owned by, an element with role=menubar or role=menu -> el elemento que tiene este atributo debe de estar dentro de otro elemento que contenga el rol "menubar" o "menu"
+
+		* Error3: 
+
+	-----------
+	Soluciones:
+	-----------
+		* Solucion1: la solucion seria quitarlo y dejar el que deja el navegador por defecto ya que si no ponemos nada nos lo pone el por defecto.
+		
+		* Solucion2: Las soluciones mas optimas serian o borrar el elemento o meterlo dentro de los elementos que nos dicen en el error
+
+		* Solucion3:
