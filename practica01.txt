@@ -1,4 +1,12 @@
-Julián Ángel Pérez Muñoz
+----------
+Apellidos: Pérez Muñoz
+----------
+-------
+Nombre: Julián Ángel 
+-------
+------
+Login: julian
+------
 
 ************************
 https://www.apple.com/es
@@ -31,7 +39,7 @@ https://elpais.com/
 
 		* Error2: An element with role=menuitem must be contained in, or owned by, an element with role=menubar or role=menu -> el elemento que tiene este atributo debe de estar dentro de otro elemento que contenga el rol "menubar" o "menu"
 
-		* Error3: 
+		* Error3: An img element must have an alt attribute, except under certain conditions. -> un elemento imagen deber tener el atributo alt excepto en algunos casos 
 
 	-----------
 	Soluciones:
@@ -40,4 +48,4 @@ https://elpais.com/
 		
 		* Solucion2: Las soluciones mas optimas serian o borrar el elemento o meterlo dentro de los elementos que nos dicen en el error
 
-		* Solucion3:
+		* Solucion3: La solución optima seria poner el atributo alt en el elemento img
