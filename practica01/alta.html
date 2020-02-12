@@ -21,37 +21,70 @@
 		<label for="Apellidos"></label>
 		<input type="text" name="Apellidos" id="Apellidos" placeholder="Apellidos"><br>
 
+		<label for="fechanacimiento"></label><br>
+		<input type="text" name="Fecha nacimiento" id="fechanacimiento" placeholder="Fecha de nacimiento"><br>
 		<br>
-		Pais o región
-		<br>
-		<label for="pais"></label>
-		<select id="pais" >
-			<option value="España">España</option>
-			<option value="Francia">Francia</option>
-			<option value="Alemania">Alemania</option>
-			<option value="Andorra">Andorra</option>
-			<option value="Portugal">Portugal</option>
-		</select>
+
+		<fieldset>
+			<legend>
+				Datos de envio
+   			</legend>
+			<label for="direccion"></label>
+			<input type="text" name="Nombre" id="direccion" placeholder="Direccion">
+
+			<label for="ciudad"></label>
+			<input type="text" name="Nombre" id="ciudad" placeholder="Ciudad">
+
+			<label for="codigopostal"></label>
+			<input type="text" name="Nombre" id="codigopostal" placeholder="CP">
+
+			<br>
+			Pais o región
+			<br>
+			<label for="pais"></label>
+			<select id="pais" >
+				<option value="España">España</option>
+				<option value="Francia">Francia</option>
+				<option value="Alemania">Alemania</option>
+				<option value="Andorra">Andorra</option>
+				<option value="Portugal">Portugal</option>
+			</select>
+		</fieldset>
 
 		<br>
-		<label for="fechanacimiento"></label><br>
-		<input type="text" name="Fecha nacimiento" id="fechanacimiento" placeholder="Fecha de nacimiento">
+
+		<fieldset>
+			<legend>
+				Datos de pago
+			</legend>
+			<label for="numtarjeta"></label>
+			<input type="text" name="Nombre" id="numtarjeta" placeholder="Num de tarjeta">
+
+			<label for="fechacaducidad"></label>
+			<input type="text" name="Nombre" id="fechacaducidad" placeholder="Fecha de caducidad">
+
+			<label for="cvv"></label>
+			<input type="text" name="Nombre" id="cvv" placeholder="CVV">
+		</fieldset>
+
 		<br>
 		<hr>
 
 		<label for="email"></label><br>
 		<input type="email" name="email" id="email" placeholder="name@example.com"><br>
 		Este será tu id
+
 		<br>
 
  		<label for="contraseña"></label><br>
  		<input type="password" name="contraseña" id="contraseña" placeholder="contraseña">
 		<label for="contraseña2"></label><br>
- 		<input type="password" name="contraseña" id="contraseña2" placeholder="confirma contraseña">
-		<br>
-		<hr>
+ 		<input type="password" name="contraseña" id="contraseña2" placeholder="confirma contraseña"><br>
 
 		<br>
+		<hr>
+		<br>
+
 		Pregunta de seguridad
 		<br>
 		<label for="pregunta"></label>
@@ -63,7 +96,8 @@
 		</select>
 
 		<label for="respuesta"></label><br>
-		<textarea  name="mensaje" rows="5" cols="40" id="respuesta" placeholder="Respuesta"></textarea>
+		<textarea  name="mensaje" rows="5" cols="40" id="respuesta" placeholder="Respuesta"></textarea><br>
+
     	<br>
 		<hr>
 
@@ -71,9 +105,12 @@
 		<input type="checkbox" name="terminos" value="si" id="terminos">He leido los términos y condiciones<br>
 		<label for="comunicacionescomerciales"></label>
    		<input type="checkbox" name="publicidad" value="si"  id="comunicacionescomerciales">Deseo recibir comunicaciones comerciales<br>
+
    		<br>
+
 		<label for="boton"></label>
    		<input type="submit" id="boton">
+
  	 </form>
 
 
