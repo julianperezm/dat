@@ -18,16 +18,16 @@ https://www.apple.com/es
 
 		* Error2: Bad value text for attribute role on element h5 -> no existe el valor que esta buscando el atributo text. 
 
-		* Error3: The aria-owns attribute must point to an element in the same document.-> el atributo arias-owns debe apuntar a un elemento que este en el mismo documento, por lo que o no esta en el mismo documento o no existe. 
+		* Error3: The aria-owns attribute must point to an element in the same document.-> el atributo arias-owns debe apuntar a un elemento que este en el mismo documento, por lo que o no esta en 		el mismo documento o no existe. 
 
 	-----------
 	Soluciones:
 	-----------
-		* Solucion1: quitarlo y dejar solo 1 atributo de ese tipo
+		* Solución1: quitarlo y dejar solo 1 atributo de ese tipo
 		
-		* Solucion2: poner dentro del atributo role un valor existente.
+		* Solución2: poner dentro del atributo role un valor existente.
 
-		* Solucion3: sustituir el valor por uno existente o que este en el mismo documento.
+		* Solución3: sustituir el valor por uno existente o que este en el mismo documento.
 
 *******************
 https://elpais.com/
@@ -35,17 +35,39 @@ https://elpais.com/
 	--------
 	errores:
 	--------
-		* Error1:The scheme attribute on the meta element is obsolete. Use only one scheme per field, or make the scheme declaration part of the value -> el atributo scheme en el elemento meta esta obsoleto 
+		* Error1:The scheme attribute on the meta element is obsolete. Use only one scheme per field, or make the scheme declaration part of the value -> el atributo scheme en el elemento meta 		esta obsoleto 
 
-		* Error2: An element with role=menuitem must be contained in, or owned by, an element with role=menubar or role=menu -> el elemento que tiene este atributo debe de estar dentro de otro elemento que contenga el rol "menubar" o "menu"
+		* Error2: An element with role=menuitem must be contained in, or owned by, an element with role=menubar or role=menu -> el elemento que tiene este atributo debe de estar dentro de otro 		elemento que contenga el rol "menubar" o "menu"
 
 		* Error3: An img element must have an alt attribute, except under certain conditions. -> un elemento imagen deber tener el atributo alt excepto en algunos casos 
 
 	-----------
 	Soluciones:
 	-----------
-		* Solucion1: la solucion seria quitarlo y dejar el que deja el navegador por defecto ya que si no ponemos nada nos lo pone el por defecto.
+		* Solución1: la solución seria quitarlo y dejar el que deja el navegador por defecto ya que si no ponemos nada nos lo pone el por defecto.
 		
-		* Solucion2: Las soluciones mas optimas serian o borrar el elemento o meterlo dentro de los elementos que nos dicen en el error
+		* Solución2: Las soluciones mas optimas serian o borrar el elemento o meterlo dentro de los elementos que nos dicen en el error
 
-		* Solucion3: La solución optima seria poner el atributo alt en el elemento img
+		* Solución3: La solución optima seria poner el atributo alt en el elemento img
+
+*********************
+https://www.marca.com
+*********************
+
+	--------
+	errores:
+	--------
+		* Error1: Legacy encoding iso-8859-15 used. Documents must use UTF-8. -> En los documentos debe usarse UTF-8
+
+		* Error2: Attribute http-equiv not allowed on element meta at this point. -> El atributo http-equiv no esta permitido en el elemento meta en este momentos
+
+		* Error3:  No space between attributes. -> No hay espacio entre los atributos del elemento
+
+	-----------
+	Soluciones:
+	-----------
+		* Solución1: Cambiar la codificación a UTF-8
+		
+		* Solución2: La solución mas optima sería eliminar el atributo http-equis
+
+		* Solución3: La solución sería poner espacios entre los atributos
