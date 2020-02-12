@@ -7,33 +7,75 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Formulatio de alta</title>
+  <title>Formulario de alta</title>
 </head>
 
-<form>
-	<label for="Nombre">Nombre:</label>
-	<input type="text" name="Nombre" id="Nombre">
-	<label for="Apellidos">Apellidos:</label>
-	<input type="text" name="Apellidos" id="Apellidos">
- </form>
-<br>
+<body>
 
-<form>
-	Pais o región
-	<br>
-	<select name="Pais">
-		<option value="España">España</option>
-		<option value="Francia">Francia</option>
-		<option value="Alemania">Alemania</option>
-		<option value="Andorra">Andorra</option>
-		<option value="Portugal">Portugal</option>
-	</select>
-	<br>
-</form>
-<br>
-<form>
-	<label for="fecha nacimiento">Fecha de naciemiento:</label><br>
-	<input type="date" name="Fecha nacimiento" id="fecha nacimiento">
- </form>
-<br>
-<hr>
+	<h1>Create Your ID</h1>
+
+	<form>
+		<label for="Nombre"></label>
+		<input type="text" name="Nombre" id="Nombre" placeholder="Nombre">
+
+		<label for="Apellidos"></label>
+		<input type="text" name="Apellidos" id="Apellidos" placeholder="Apellidos"><br>
+
+		<br>
+		Pais o región
+		<br>
+		<label for="pais"></label>
+		<select id="pais" >
+			<option value="España">España</option>
+			<option value="Francia">Francia</option>
+			<option value="Alemania">Alemania</option>
+			<option value="Andorra">Andorra</option>
+			<option value="Portugal">Portugal</option>
+		</select>
+
+		<br>
+		<label for="fecha nacimiento"></label><br>
+		<input type="date" name="Fecha nacimiento" id="fecha nacimiento" placeholder="Fecha de nacimiento">
+		<br>
+		<hr>
+
+		<label for="email"></label><br>
+		<input type="email" name="email" id="email" placeholder="name@example.com"><br>
+		Este será tu id
+		<br>
+
+ 		<label for="contraseña"></label><br>
+ 		<input type="password" name="contraseña" id="contraseña" placeholder="contraseña">
+		<label for="contraseña2"></label><br>
+ 		<input type="password" name="contraseña" id="contraseña2" placeholder="confirma contraseña">
+		<br>
+		<hr>
+
+		<br>
+		Pregunta de seguridad
+		<br>
+		<label for="pregunta"></label>
+		<select id="pregunta" >
+			<option value="pregunta1">Nombre de la primera mascota</option>
+			<option value="pregunta2">Equipo de futbol</option>
+			<option value="pregunta3">Nombre del padre</option>
+			<option value="pregunta4">Nombre de la madre</option>
+		</select>
+
+		<label for="respuesta"></label><br>
+		<textarea  name="mensaje" rows="5" cols="40" id="respuesta" placeholder="Respuesta"></textarea>
+    	<br>
+		<hr>
+
+		<label for="terminos"></label><br>
+		<input type="checkbox" name="terminos" value="si" id="terminos">He leido los términos y condiciones<br>
+		<label for="comunicaciones comerciales"></label>
+   		<input type="checkbox" name="publicidad" value="si"  id="comunicacion comerciales">Deseo recibir comunicaciones comerciales<br>
+   		<br>
+		<label for="boton"></label>
+   		<input type="submit" id="boton" placeholder="Submit">
+ 	 </form>
+
+
+</body>
+</html>
