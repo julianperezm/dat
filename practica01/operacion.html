@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<!-- Apellidos: Pérez Muñoz
+ 	 Nombre: Julián Ángel
+ 	 Login: julian -->
+
+<html lang="es-ES">
+
+<head>
+  <meta charset="utf-8">
+  <title>Formulario de transferencia</title>
+</head>
+
+<body>
+	<h1>Nueva transferencia</h1>
+
+	<h2>Origen</h2>
+
+	<label for="origen"></label>
+	<select id="origen" style="width:350px">" >
+		<option value="cuenta1">Cuenta1</option>
+		<option value="cuenta2">cuenta2</option>
+		<option value="cuenta3">cuenta3</option>
+	</select><br>
+
+	<br>
+	<hr>
+
+	<h2>Destino</h2>
+
+	Beneficiario <br>
+	<label for="beneficiario"></label>
+	<input type="text" name="beneficiario" id="beneficiario" placeholder="Nombre y apellidos" style="width:350px"><br>
+
+	<br>
+	País del beneficiario
+	<br>
+	<label for="pais"></label>
+	<select id="pais"  style="width:350px">
+		<option value="España">España</option>
+		<option value="Francia">Francia</option>
+		<option value="Alemania">Alemania</option>
+		<option value="Andorra">Andorra</option>
+		<option value="Portugal">Portugal</option>
+	</select><br>
+	<br>
+	Numero de cuenta <br>
+	<label for="numerocuenta"></label>
+	<input type="text" name="numerocuenta" id="numerocuenta" placeholder="Introduzca numero de cuenta" style="width:350px">
+
+	<label for="beneficiariofav"></label><br>
+	<input type="checkbox" name="beneficiariofav" value="si" id="beneficiariofav">Guardar como beneficiario favorito<br>
+
+	<br>
+
+	<fieldset>
+		<br>
+		<legend>
+			Datos de pago
+		</legend>
+		<label for="importe"></label>
+		<input type="text" name="importe" id="importe" placeholder="Introduzca el importe">€<br>
+
+		<br>
+
+		<label for="concepto"></label>
+		<input type="text" name="concepto" id="concepto" placeholder="Introduzca concepto"><br>
+
+		<br>
+
+		<label for="tipos"></label>
+		<input type="radio" name="tipo" value="puntual" id="tipos" checked>Trasferencia puntual<br>
+	    <input type="radio" name="tipo" value="programar" id="tipos">Programar transferencia<br>
+	    <input type="radio" name="tipo" value="periodica" id="tipos">Transferencia periodica<br>
+		<br>
+	</fieldset>
+
+	<br>
+	<hr>
+
+	<br>
+	Mensaje de confirmación <br>
+	<br>
+	<label for="emailconfirmacion"></label>
+	<input type="checkbox" name="emailconfirmacion" id="emailconfirmacion"> Email:
+	<label for="email"></label>
+	<input type="text" name="email" id="email" placeholder="name@example.com">
+
+	<br>
+
+	<label for="smsconfirmacion"></label>
+	<input type="checkbox" name="smsconfirmacion" id="smsconfirmacion"> Sms:
+	<label for="sms"></label>
+	<input type="text" name="sms" id="sms" placeholder="+34 ..."><br>
+
+	<br>
+	<hr>
+	<br>
+
+	<label for="botoncancelar"></label>
+	<input type="submit" name="botonaceptar"  value="Cancelar" id="botoncancelar">
+	<label for="botonaceptar"></label>
+	<input type="submit" name="botonaceptar" id="botonaceptar">
+
+
+
+</body>
