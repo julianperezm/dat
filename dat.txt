@@ -1,0 +1,156 @@
+*******
+5/02/20
+*******
+	Ejemplo hola mundo:
+
+	<!DOCTYPE html>
+	<html>
+		<head>
+			<title>Hola mundo en HTML</title>
+			<meta charset="utf-8">
+		</head>
+		<body>
+			Hola, mundo.
+		</body>
+	</html>
+
+	- Los elementos void no se cierran
+	....completar con los ya dado en clase ....
+	
+	<em> -> desctacar un elemento (no confundir con el em de CSS)
+	
+	<pre> -> se respetan los espacios y los saltos de linea
+	
+	<h1> ... <h6> -> cabeceras de mas importante a menos
+	
+	<a> -> sirve para hacer hiperenlaces ejemplo: <a href="https://www.urjc.es">Página de la URJC</a>
+		los enlaces pueden ser:
+			* Absolutos a una direccion -> <a href="http://linkedsite/url.html">Documento</a>
+			* Absolutos dentro del mismo sitio -> <a href="/url.html">Documento en mismo sitio web</a>
+			* Relativos -> <a href="url.html">Documento en mismo sitio web y "dir"</a>
+		un anchor es un enlace como otro cualquiera, hace referencia a un putno concreto dentro de un docuemnto
+			ejemplo: https://gsyc.urjc.es/˜mortuno/index_at.html#evaluacion
+		Para añadir un anchor ->
+			<h1 id="punto07">Punto 7</h1>
+			[.....]
+			<a href="#punto07">Volver al punto 7</a>
+		si queremos abrir otra pestaña en el atributo target="_blank"
+
+	<div> -> sirve para seleccionar una parte del texto, se le suele poner etiqueta id para luego darle formato con CSS
+		ejemplo: <div class="respuesta">Todas son falsas</div>
+
+	<span> -> se parece al div en cuanto al seleccionar una parte de texto, pero con la diferencia que este no crea un bloque, se suele utilizar para para dar formato a un grupo de palabras
+			
+	<table> ->
+		<tr> -> cabecera de tabla
+		<th> -> columnas 
+		<td> -> filas
+	
+	<ul> -> lista desordenada
+		<li> -> cada uno de los elemntos
+	
+	<ol> -> lista ordenada
+		<li> -> cada uno de los elemntos
+	
+	**añadiendo type puedes cambiar el formato de la enumeracion**
+
+	<dl> -> lista de descripciones
+		<dt> -> titulos
+		<dd> -> descripcion
+
+	<img> -> insertar imagenes 
+		ejemplo: <img src="urjc.png" alt="Logo de la URJC">
+		para el tamaño -> (lo mejor es indicar uno de los dos ya que la pagina hace el otro automaticamente)
+			ejemplo: <img src="urjc.png" alt="Logo de la URJC" width="300" height="240">
+		si queremos incluir un hipervinculo dentro de la imagen: ->
+			<a href="https://www.urjc.es">
+			<img src="images/urjc.png" width="120" alt="logo de la URJC">
+			</a>
+
+
+********
+11/02/20
+********
+	repaso -> 	
+		<em>
+		<pre>
+		<h1> ... <h6>
+		<a>
+	
+	<link> -> para unir el css con el html
+	
+	<p> -> crea un parrafo
+
+	<br> -> salto de linea
+
+
+	Tecnincas para evitar el spam en el correo -> poner una imagen o pedroperezquitaesto@gmail.com	
+
+	*** pychart *** SAT
+
+********
+12/02/20
+********
+	-----------
+	Formularios
+	-----------
+	
+		* <form> -> crea un formulario que permite aceptar entrada de informacion por parte de los usuarios
+
+		* <input> -> tipo void atributos -> 
+			type=
+				radio = (elegir opciones) -> para hacer difrentes subcojuntos cambiando el nombre
+				value -> el valor al pinchar 
+				
+				checkbox -> perimte elegir 0 o mas opciones
+				
+				color -> cuadrito donde puedes elegir el color
+				
+				date -> formato fecha
+				
+				datetime-local -> fecha y hora
+				
+				email -> formato email
+				
+				number -> fomato numero
+			
+				mas tipos  diapo 63
+			
+			checked -> la opcion marcada
+			
+			name(no puede tener ñ) =
+			value=
+			submit(enviar)-> lo envia donde ponga en action
+			
+		Tres formas de validar:
+
+			* En el servidor(no recomendable)
+
+			* En el html	
+
+			* ¿?
+		
+		<hr> -> linea horizontal
+		
+		<fieldset> -> recuadro
+			
+		<select> -> desplegable con opciones
+
+		<textarea> -> para que el usuario pueda escribir en varias lineas
+
+		<label> -> como una etiqueta para que el usario sepa por lo que le estan perguntando (importante para el javascript) se sabe el input y el label esta relacionado por el for del label y el id el input
+
+		**programing skills ->https://www.hackerrank.com/**
+
+
+
+
+
+
+
+
+
+
+
+
+
