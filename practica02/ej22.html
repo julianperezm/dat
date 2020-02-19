@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<!-- Apellidos: Pérez Muñoz
+ 	 Nombre: Julián Ángel
+ 	 Login: julian -->
+
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <title>Prueba de hoja de estilo</title>
+
+
+    <style>
+        .clase1 {
+            color: #a1bae3;
+        }
+
+        .clase2 {
+            text-decoration: overline underline;
+        }
+
+        .clase1 .clase2 {
+            background-color: #bdd6a9;
+        }
+
+        div .clase3 {
+            color: #bdd6a9;
+            text-align: center;
+            font-size: 200%;
+        }
+
+        #clase4 {
+            font-family: Helvetica;
+        }
+
+        p.clase5 {
+            text-decoration: line-through;
+        }
+    </style>
+</head>
+
+<body>
+    <p class="clase1 clase2">Esto es un parrafo de prueba utilizando diferentes clases y estilos en el css</p>
+
+    <div id="clase4">
+        <p class="clase3">Esto es un parrafo de prueba utilizando diferentes clases y estilos en el css </p>
+        <p class="clase5 clase2">Esto es un parrafo de prueba utilizando diferentes clases y estilos en el css</p>
+        <p class="clase5">Este texto deberia estar tachado</p>
+    </div>
+
+    <div class="clase1">
+        <p class="clase2">Esto es un parrafo de prueba utilizando diferentes clases y estilos en el css</p>
+    </div>
+
+
+</body>
+
+</html>
