@@ -128,19 +128,140 @@
 
 			* En el html	
 
-			* ¿?
-		
-		<hr> -> linea horizontal
-		
-		<fieldset> -> recuadro
+			*
+
+
+********
+18/02/20
+********
+	---
+	CSS
+	---
+	
+		* Diferentes formas de integras:
+			-Hoja de estilo externa -> cosas mas generales
+			-Hoja de estilo interna (dentro del atributo style) -> para cosas sencillas
+			- Direcatmente en los elmentos del HTML -> NO USAR
+
+		* Selectores:
 			
-		<select> -> desplegable con opciones
+			(espacio)	 desciendente (hijo, nieto...)
 
-		<textarea> -> para que el usuario pueda escribir en varias lineas
+			. 		 clase
 
-		<label> -> como una etiqueta para que el usario sepa por lo que le estan perguntando (importante para el javascript) se sabe el input y el label esta relacionado por el for del label y el id el input
+			, 		 OR
 
-		**programing skills ->https://www.hackerrank.com/**
+			(concatenación)	 AND
+
+			# 		 id 
+
+			* Se aplica la regla mas especifica en caso de que haya reglas contradictorias y en caso de que sean igual de especifica cogemos la ultima
+			 -------------------
+			* Selector Universal -> * {
+			 -------------------	margin: 0;
+						padding: 0;
+						}
+			--------------------------------
+			* Selector de tipo o de etiqueta -> 	h1, h2, h3 {
+			--------------------------------	color: #8A8E27;
+								font-weight: normal;
+								font-family: Arial, Helvetica, sans-serif;
+								}
+								h1 { font-size: 2em; } -> 200% mayor que la letra m normal
+								h2 { font-size: 1.5em; }
+								h3 { font-size: 1.2em; }
+			-----------------------
+			* Selector descendiente ->
+			-----------------------
+						p span { color: red; } -> todos los elementos span que esten dentro de un elemento p
+						[...]
+						<p>
+						...
+						<span>Texto1</span>
+						<a href="">...<span>Texto2</span></a>
+						...
+						</p>
+
+			** Los elementos que estan dentro de otros elementos se le aplica la regla que se le aplica al elemento principal**
+						p * a -> a todos los descendientes menos a los hijos
+
+			-------------------
+			* Selector de clase ->
+			-------------------
+						.destacado { color: red; } -> Creamos una clase en este caso destacado
+						[...]
+						<p class="destacado">
+							Lorem ipsum dolor sit amet...
+						</p>
+						<p>Nunc sed lacus et
+							<a href="#" class="destacado">est adipiscing</a>
+						</p>
+						<p>Class aptent taciti <em class="destacado">sociosqu ad</em>
+						</p>
+
+				- Podemos tener varias clases en un mismo elemento ->
+					<style>
+						.comentario {color : blue;}
+						.noticia {color : red;}
+						.obsoleto {text-decoration : line-through;}
+					</style>
+					[...]
+					<body>
+						<p class="comentario"> Lorem ipsum dolor sit amet<p>
+						<p class="comentario obsoleto"> consectetur adipisicing elit, </p>
+						<p class="noticia "> sed do eiusmod tempor incididunt </p>
+						<p class="noticia obsoleto"> ut labore et dolore magna aliqua.</p>
+					</body>
+
+				- En este caso solo se aplica al primero la clase -> 
+					p.destacado { color: red } -> esto solo se aplica a parrafos destacados SOLO
+					[...]
+					<p class="destacado">
+					Lorem ipsum dolor sit amet...
+					</p>
+					<p>Nunc sed lacus et
+					<a href="#" class="destacado">est adipiscing</a>
+					</p>
+					<p>Class aptent taciti <em class="destacado">sociosqu ad</em>
+					</p>
+
+				
+				- .a.b{...} -> se aplica a los elementos que tengan el atributo a y b
+
+					Ejemplo -> concatenacion_clases.html
+
+				p.aviso { ... } -> parrfo de clase aviso
+				p .aviso { ... } -> clase aviso dentro de un parrafo
+				p, .aviso { ... } -> a cualquier parrafo o a cualquier elemento de clase aviso
+				*.aviso { ... } -> a cualquier elemento de clase aviso
+
+
+
+
+		
+			---------------------------
+			* Selector de identificador ->
+			---------------------------
+						#destacado { color: red; }
+						<p>Primer p´arrafo</p>
+						<p id="destacado">Segundo p´arrafo</p>
+						<p>Tercer p´arrafo</p>
+
+					p#aviso { ... } -> parrafo cuyo id sea aviso
+					p #aviso { ... } -> id aviso dentro del parrafo
+					p, #aviso { ... } -> a cualquier parrafo y a cualquier id aviso
+					*#aviso { ... } -> a cualquier id aviso
+
+					.aviso .especial { ... } -> un elmento de clase especial y que este dentro de clase aviso
+					div.aviso span.especial { ... } -> un div de clase aviso que tenga dentro un span de clase especial
+					ul#menuPrincipal li.destacado a#inicio { ... }-> a con id inicio dentro de un li con clase destacado que ste dentro de un ul con id menu principal
+
+
+
+
+
+
+
 
 
 
