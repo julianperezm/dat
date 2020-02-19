@@ -261,7 +261,7 @@
 ********
 	<--- Entities --->
 
-		* los usamos para caracteres que coinciden con metacaracteres de HTML(para saber 			    cuales son -> google 
+		* los usamos para caracteres que coinciden con metacaracteres de HTML(para saber cuales son -> google 
 			
 			un entity frecuente es -> &nbsp no-breaking-sapce para asegurarnos que siempre este en la misma linea	lorem ipsum
 	

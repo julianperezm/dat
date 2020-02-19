@@ -116,26 +116,38 @@ Ejemplo4
 	---------
 	Párrafo 1
 	---------
+		
+		No tiene ninguna clase entonces no se le atribuye ningún estilo
 
 	-----------
 	Párrafo 2.1
 	-----------
+		
+		Se le atribuye todo los estilos ya que es de clase reglamento y también de la clase Urjc que sea de clase Urjc le pone el color rojo que se de de clase Urjc o reglamento le pone el fondo 		azul clarito y que sea clase reglamento y Urjc hace que se subraye
 
 	-----------
 	Párrafo 2.2
 	-----------
+		
+		En este caso solo se pone el fondo azul ya que tiene la clase reglamento y la clase ucm que no hace nada.
 
 	---------
 	Párrafo 3
 	---------
 
+		Es clase matricualacion que no es ninguna clase
+
 	-----------
 	Párrafo 4.1
 	-----------
+		
+		La clase investigación no hace nada, y al ser de clase Urjc se escribe de color rojo y con fondo azul cielo
 
 	-----------
 	Párrafo 4.2
 	-----------
+
+		No hace nada ya que no existe ni la clase investigación ni la uc3m
 
 
 
