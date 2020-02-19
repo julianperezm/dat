@@ -2,22 +2,32 @@
 ********
 Ejemplo1
 ********
+	
+	Tenemos todo el documento con el fondo beige por el * que se aplica a todo el documento.
 
 	-----------
 	Etiqueta h1
 	-----------
-
+		
+		Tenemos en el elemento style que todo lo que este dentro de un h1 tiene que estar en el color violeta en el centro y el tamaño grande 	
+		
 	---------
 	Párrafo 1
 	---------
 
+		Tenemos en el elemento style que todo lo que este dentro de un p se escriba a la izq con color azul y con el fondo amarillo.
+
 	---------
 	Párrafo 2
 	---------
+			
+		Aunque este dentro de un párrafo como es de clase feo y en el style tenemos una clase feo se pone como lo hayamos declarado en la clase feo en este caso con el fondo rosa y el color de las 		letras rojo
 
 	---------
 	Párrafo 3
 	---------
+
+		Es de clase inverso que la encontramos en el css donde el color es blanco y el fondo negro.
 
 
 ********
@@ -27,35 +37,49 @@ Ejemplo2
 	-------
 	Frase 1
 	-------
-
+		
+		No tiene ningun formato especial ya que no tenemos en el css ninguna clase que se llame españa ya que la tenemos tiene que ser de clase Toledo que este dentro de la clase españa
+		y no tenemos ninguno que se llame país
 	-------
 	Frase 2
 	-------
+		
+		Ya que es de clase Castilla la mancha que esta definida en el css con un subrayado negro
 	
 	-------
 	Frase 3
 	-------
+		Ya que tenemos en el css que si tenemos un clase Toledo OR cuenca se coloque en el centro se pinta de rojo ya que esta dentro de la clase españa y esta subrayado ya que todo lo que hay 		dentro de la clase Castilla la mancha esta subrayado
 
 	-------
 	Frase 4
 	-------
+		Pasa lo mimos que con Toledo solo que no se pinta de rojo ya que  para que se pinta de rojo tendríamos que tener en el css que la clase cuenca dentro de españa se pintara y en este caso 		no lo tenemos.
 
 	-------
 	Frase 5
 	-------
 
+		Con Albacete ocurre que esta subrayado solo por que esta dentro de la clase Castilla la mancha
+		
+
 	-------
 	Frase 6
 	-------
+		
+		No ocurre nada ya que no tenemos ni una clase que se llame país ni que se llame estados-unidos
 
 	-------
 	Frase 7
 	-------
-	
+		
+		Ocurre lo mismo ya que no tenemos niguna clase que se llame Ohio esta dentro de país y estados-unidos que no existen
+
 	-------
 	Frase 8
 	-------
-
+		
+		En este caso tenemos dos clases Toledo por eso se coloca en el centro y este caso se pinta azul y no de rojo ya que no esta dentro de de españa
 
 ********
 Ejemplo3
@@ -64,19 +88,25 @@ Ejemplo3
 	---------
 	Párrafo 1
 	---------
+		
+		No ocurre nada ya que para la clase le afecte deber ser un párrafo con id alfa
 
 	---------
 	Párrafo 2
 	---------
-
+		En este caso aumenta el tamaño ya que es un parrado con id alfa y cambia la letra ya que es un elemento con etiqueta alfa dentro de un elemento div y cambia el color ya que todos lo que 		tenga elemento alfa se escriben en azul
+		
 	---------
 	Párrafo 3
 	---------
 
+		Pasa lo mismo que con el párrafo 1 aunque este dentro de un elemento div si no tiene el id alfa no le afecta
+
 	---------
 	Párrafo 4
 	---------
-
+		
+		No tiene ni id alpha ni esta dentro de un div.
 
 
 ********
