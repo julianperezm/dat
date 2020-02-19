@@ -290,6 +290,8 @@
 		* https://gsyc.urjc.es/~mortuno/cajas.html
 
 		* el margen afecta tanto a la primera caja en el margen inferior como a la segunda caja en el margen superior
+
+		* Doferentes formas de indicar un margen -> diapo 37
 	
 			
 
