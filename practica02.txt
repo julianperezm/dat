@@ -151,3 +151,58 @@ Ejemplo4
 
 
 
+*************
+Ejercicio 2.2
+*************
+	
+
+	---------
+	Párrafo 1
+	---------
+		
+		Como tiene la clase 1 y clase 2 se pinta de color azul y la se subraya por arriba y por abajo no se puntuala el fondo ya que no es una clase 2 dentro de una clase 1.
+
+	---------
+	Párrafo 2
+	---------
+		
+		Al ser una clase 3 dentro de un div y a su vez este div un clase 4 el parrafo se queda en el centro con ese color y al ser clase 4 con ese tipo de letra.
+
+	---------
+	Párrafo 3
+	---------
+	
+		En este caso al ser de clase 5 y clase 2 dentro un parrafo dentro de un clase 4 este especifica el tipo de fuente, la clase 5 dentro del párrafo hace que se tache, aunque la clase 2 no 		hace nada en este caso ya que la clase 5 es mas especifica por lo que tiene mas preferencia
+
+	---------
+	Párrafo 4
+	---------
+
+		Esta tachado ya que es de clase 5 y tiene otro tipo de letra por estar dentro de la clase 4
+
+	---------
+	Párrafo 5
+	---------
+		
+		En este caso se atribuyen 3 clases la clase 1 la clase 2 y la clase 2 dentro de la 1 por eso esta de color azul, subrayado por arriba y por abajo y con el fondo verde.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
