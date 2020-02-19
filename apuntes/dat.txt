@@ -256,9 +256,42 @@
 					div.aviso span.especial { ... } -> un div de clase aviso que tenga dentro un span de clase especial
 					ul#menuPrincipal li.destacado a#inicio { ... }-> a con id inicio dentro de un li con clase destacado que ste dentro de un ul con id menu principal
 
+********
+18/02/20
+********
+	<--- Entities --->
 
+		* los usamos para caracteres que coinciden con metacaracteres de HTML(para saber 			    cuales son -> google 
+			
+			un entity frecuente es -> &nbsp no-breaking-sapce para asegurarnos que siempre este en la misma linea	lorem ipsum
+	
+	-------------
+	Uso de editor
+	-------------
 
+		* diapo 74 HTML
+		
+		* apm install atom-beautify
 
+	* Unidades de medida -> Es recomnedable mejor siempre unidades relativas
+	
+	* Especificacion de color -> Recomendable utilizar el codigo hexadecimal
+			
+				color, backgroud-color, border-color
+
+	* Atributos relacionados con el texto -> alineacion, subrayado, Tamaño, Estilo ....
+	
+	* Atributos relacionados con los bordes ->
+
+	---------------
+	Modelo de cajas
+	---------------
+
+		* https://gsyc.urjc.es/~mortuno/cajas.html
+
+		* el margen afecta tanto a la primera caja en el margen inferior como a la segunda caja en el margen superior
+	
+			
 
 
 
