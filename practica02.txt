@@ -1,4 +1,6 @@
 
+<-- Practica 2.1 -->
+
 ********
 Ejemplo1
 ********
@@ -150,6 +152,7 @@ Ejemplo4
 		No hace nada ya que no existe ni la clase investigación ni la uc3m
 
 
+<-- Practica 2.2 -->
 
 *************
 Ejercicio 2.2
