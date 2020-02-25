@@ -291,22 +291,58 @@
 
 		* el margen afecta tanto a la primera caja en el margen inferior como a la segunda caja en el margen superior
 
-		* Doferentes formas de indicar un margen -> diapo 37
+		* Diferentes formas de indicar un margen -> diapo 37
 	
 			
 
+********
+25/02/20
+********
+	---------
+	Bootstrap
+	---------
 
+		* Hola mundo diapo -> 6
+		
+		* copiar y pegar el encabezado del hola mundo casi siempre
 
+			<!DOCTYPE html>
+			<html lang="es-ES"> <head>
+				<meta charset="utf-8">
+				<title>Hola mundo en bootstrap</title>
+				<meta name="viewport" content="width=device-width, initial scale=1.0"> 
+				<link rel="stylesheet"
+					href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+ 				<script
+					src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js">
+				</script>
+				<script 
+					src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js">
+				</script> 
+			</head>
 
+		* en un container si sobra espacio se dejan márgenes si es container fluid se utiliza todo los márgenes
 
+		* Viewport -> diferentes técnicas para la visualización de la pagina en diferentes pantallas(formatos)(zona de la pantalla visible
+)
+		
+			-> Al aumentar la resolucion aparece una barra de desplazamiento en la parte interior(Esto en nuestro caso no nos debería pasar)(primera técnica)
 
+			-> viewport virtual (apple) -> la pagina se compone para el virtual grande y luego el iPhone o el dispositivo muestra diferentes zonas del viewport arrastrando, arrastramos nuestro viewport físico sobre el viewport virtual(segunda generación de técnicas para la visualización), para decir que no lo utilice hay que ponerlo en el meta del html
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
+			-> bootstrap tercera generación 
 
+		* paginas responsieve -> página que se adapta al entorno
 
+		* Sistema de rejilla -> diferentes combinaciones de columnas, la pantalla se tiene que dividir en 12 columnas
 
+		Página interesante fiverr 
 
+			-> tamaños de casillas , XS, sm, md, lg -> ejemplo rejilla de bootstrap
+		
+			si queremos que nuestras columnas nunca se apilan y lo queremos en tres columnas tenemos que hacerlas XS (diapositivas 22)
 
-
-
+			-> columnas desplazadas: si queremos poner una en cada lado hacemos las dos juntas y desplazamos la de la derecha con el tamaño que queramos.
 
 
