@@ -346,3 +346,31 @@
 			-> columnas desplazadas: si queremos poner una en cada lado hacemos las dos juntas y desplazamos la de la derecha con el tamaño que queramos.
 
 
+
+********
+26/02/20
+********
+	-------
+	Paneles
+	-------
+	
+		* Diferentes tipos de penales según lo que queramos
+	---
+	btn
+	---
+		* Diferentes tipos de botón según nuestras necesidades
+	---
+	nav
+	---
+		* diferentes tipos de enlaces(pestañas, botones) para navegar dentro de una web
+
+
+	--------
+	Dropdown
+	--------
+		 * diapo 30-31
+
+
+
+
+
