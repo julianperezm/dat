@@ -371,6 +371,25 @@
 		 * diapo 30-31
 
 
+********
+3/03/20
+********
+	
+	-----------
+	Formularios
+	-----------
+		
+		* diapo 32-34
+	
+	--------
+	carrusel
+	--------
+		
+		* indicators (círculos abajo)
 
+		* carousel - inner 
+		
+		* las flechas
 
+		código diap 35-39
 
