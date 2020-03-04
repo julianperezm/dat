@@ -393,3 +393,42 @@
 
 		código diap 35-39
 
+
+
+
+
+
+********
+4/03/20
+********
+
+	Lenguaje interpretado: no se genera código ejecútale no necesitas compilarlo, suelen ser de mas alto nivel no hace falta compilarlo en cada plataforma, mas cómodo para el programador
+
+	Lenguaje compilado: genera el código para ejecutarlo necesitas compilarlo y necesitas el compilador de la arquitectura. Necesitas compilar para cada plataforma, este es mas rápido
+
+
+	Antes de optimizar nuestro codigo -> debemos medirlo 
+
+
+	Comsidermos en unfined es igul al null
+
+	* > 0.3===0.3
+	true
+	> 0.1+0.2===0.3
+	false
+	> 0.3-(0.1+0.2) 
+	-5.551115123125783e-17
+
+	ya que como lo hace en binario tienen un error de redondeo en e-17
+
+	cc photos
+
+
+
+
+
+
+
+
+
+
