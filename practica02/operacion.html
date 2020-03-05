@@ -6,99 +6,143 @@
 <html lang="es-ES">
 
 <head>
-  <meta charset="utf-8">
-  <title>Formulario de transferencia</title>
+    <meta charset="utf-8">
+    <title>Formulario de alta</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <style>
+        * {
+            text-align: center;
+        }
+    </style>
 </head>
 
 <body>
-		<h1>Nueva transferencia</h1>
 
-	<form>
-		<h2>Origen</h2>
+    <div class="container">
 
-		<label for="origen"></label>
-		<select id="origen" style="width:350px" >
-			<option value="cuenta1">Cuenta1</option>
-			<option value="cuenta2">cuenta2</option>
-			<option value="cuenta3">cuenta3</option>
-		</select><br>
 
-		<br>
-		<hr>
+        <h1>Nueva transferencia</h1>
 
-		<h2>Destino</h2>
+        <form>
+            <h3>Origen</h3>
+            <div class="row">
+                <div class="form-group col-xs-4 col-xs-offset-4">
+                    <label for="origen"></label>
+                    <select id="origen" class="form-control">
+                        <option value="cuenta1">cuenta1</option>
+                        <option value="cuenta2">cuenta2</option>
+                        <option value="cuenta3">cuenta3</option>
+                    </select><br>
+                </div>
+            </div>
 
-		Beneficiario <br>
-		<label for="beneficiario"></label>
-		<input type="text" name="beneficiario" id="beneficiario" placeholder="Nombre y apellidos" style="width:350px"><br>
+            <br>
+            <hr>
 
-		<br>
-		País del beneficiario
-		<br>
-		<label for="pais"></label>
-		<select id="pais"  style="width:350px">
-			<option value="España">España</option>
-			<option value="Francia">Francia</option>
-			<option value="Alemania">Alemania</option>
-			<option value="Andorra">Andorra</option>
-			<option value="Portugal">Portugal</option>
-		</select><br>
-		<br>
-		Numero de cuenta <br>
-		<label for="numerocuenta"></label>
-		<input type="text" name="numerocuenta" id="numerocuenta" placeholder="Introduzca numero de cuenta" style="width:350px">
+            <h3>Destino</h3>
+            <div class="row">
+                <div class="form-group col-xs-4 col-xs-offset-4">
+                    <label for="beneficiario"></label>
+                    <input type="text" name="beneficiario" id="beneficiario" placeholder="Nombre y apellidos" class="form-control">
+                </div>
+            </div>
+            <br>
+            País del beneficiario
+            <div class="row">
+                <div class="form-group col-xs-4  col-xs-offset-4">
+                    <label for="pais"></label>
+                    <select id="pais" class="form-control">
+                        <option value="España">España</option>
+                        <option value="Francia">Francia</option>
+                        <option value="Alemania">Alemania</option>
+                        <option value="Andorra">Andorra</option>
+                        <option value="Portugal">Portugal</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row">
+                <div class="form-group col-xs-4  col-xs-offset-4">
+                    <label for="numerocuenta"></label>
+                    <input type="text" name="numerocuenta" id="numerocuenta" placeholder="Introduzca numero de cuenta" class="form-control">
+                </div>
+            </div>
+            <div class="form-check">
+                <label for="beneficiariofav"></label>
+                <input type="checkbox" name="beneficiariofav" value="si" id="beneficiariofav" class="form-check"> Guardar como beneficiario favorito<br>
 
-		<label for="beneficiariofav"></label><br>
-		<input type="checkbox" name="beneficiariofav" value="si" id="beneficiariofav">Guardar como beneficiario favorito<br>
+            </div>
 
-		<br>
+            <br>
+            <hr>
+            <h3>Datos de pago</h3>
+            <br>
+            <div class="form-inline">
+                <div class="form-group">
+                    <label for="importe"></label>
+                    <input type="text" name="importe" id="importe" placeholder="Introduzca el importe" class="form-control"> €
 
-		<fieldset>
-			<legend>
-				Datos de pago
-			</legend>
-			<label for="importe"></label>
-			<input type="text" name="importe" id="importe" placeholder="Introduzca el importe">€<br>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="form-group col-xs-6 col-xs-offset-3">
+                    <label for="concepto"></label>
+                    <input type="text" name="concepto" id="concepto" placeholder="Introduzca concepto" class="form-control"><br>
 
-			<br>
+                </div>
+            </div>
 
-			<label for="concepto"></label>
-			<input type="text" name="concepto" id="concepto" placeholder="Introduzca concepto"><br>
+            <br>
+            <div class="form-check">
 
-			<br>
-			<input type="radio" name="tipo" value="puntual"  checked>Trasferencia puntual<br>
-		    <input type="radio" name="tipo" value="programar" >Programar transferencia<br>
-		    <input type="radio" name="tipo" value="periodica" >Transferencia periodica<br>
-			<br>
-		</fieldset>
+            </div>
+            <input type="radio" name="tipo" value="puntual" checked class="form-check"> Trasferencia puntual<br>
+            <input type="radio" name="tipo" value="programar" class="form-check"> Programar transferencia<br>
+            <input type="radio" name="tipo" value="periodica" class="form-check"> Transferencia periodica<br>
+            <br>
 
-		<br>
-		<hr>
+            <br>
+            <hr>
 
-		<br>
-		Mensaje de confirmación <br>
-		<br>
-		<label for="emailconfirmacion"></label>
-		<input type="checkbox" name="emailconfirmacion" id="emailconfirmacion"> Email:
-		<label for="email"></label>
-		<input type="text" name="email" id="email" placeholder="name@example.com">
+            <br>
+            <h5>Mensaje de confirmacion</h5>
+            <br>
 
-		<br>
+            <div class="form-check">
+                <label for="emailconfirmacion"></label>
+                <input type="checkbox" name="emailconfirmacion" id="emailconfirmacion" class="form-check"> Email:
+            </div>
 
-		<label for="smsconfirmacion"></label>
-		<input type="checkbox" name="smsconfirmacion" id="smsconfirmacion"> Sms:
-		<label for="sms"></label>
-		<input type="text" name="sms" id="sms" placeholder="+34 ..."><br>
+            <div class="row">
+                <div class="form-group col-xs-4 col-xs-offset-4">
+                    <label for="email"></label>
+                    <input type="text" name="email" id="email" placeholder="name@example.com" class="form-control">
+                </div>
+            </div>
 
-		<br>
-		<hr>
-		<br>
+            <br>
 
-		<label for="botoncancelar"></label>
-		<input type="submit" name="botonaceptar"  value="Cancelar" id="botoncancelar">
-		<label for="botonaceptar"></label>
-		<input type="submit" name="botonaceptar" id="botonaceptar">
+            <div class="form-check">
+                <label for="smsconfirmacion"></label>
+                <input type="checkbox" name="smsconfirmacion" id="smsconfirmacion" class="form-check"> Sms:
+            </div>
+            <div class="row">
+                <div class="form-group col-xs-4 col-xs-offset-4">
+                    <label for="sms"></label>
+                    <input type="text" name="sms" id="sms" placeholder="+34 ..." class="form-control">
+                </div>
+            </div>
 
-	</form>
+            <br>
+            <hr>
+            <br>
+            <button type="submit" class="btn btn-secundary">Cancelar</button>
+            <button type="submit" class="btn btn-primary">Aceptar</button>
 
+    </form>
+    </div>
 </body>
