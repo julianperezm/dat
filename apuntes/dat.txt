@@ -424,7 +424,14 @@
 	cc photos
 
 
+********
+10/03/20
+********
 
+	Hola mundo con document.write -> diapo 16 (escribe en el html, en realidad escribe en el dom(estructura de datos que se utiliza para representar la pagina como tal))
+	hola mundo con fichero externo -> diapo 17
+
+	Utilizaremos siempre el modo estricto
 
 
 
