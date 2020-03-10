@@ -428,11 +428,26 @@
 10/03/20
 ********
 
-	Hola mundo con document.write -> diapo 16 (escribe en el html, en realidad escribe en el dom(estructura de datos que se utiliza para representar la pagina como tal))
-	hola mundo con fichero externo -> diapo 17
+	* Hola mundo con document.write -> diapo 16 (escribe en el html, en realidad escribe en el dom(estructura de datos que se utiliza para representar la pagina como tal))
+	* hola mundo con fichero externo -> diapo 17
 
-	Utilizaremos siempre el modo estricto
+	* Utilizaremos siempre el modo estricto
 
+	* Expresiones regulares(regexp) -> sirve para definir patrones de texto 
+
+	* NaN -> 
+
+	* si le pasamos parametro de mas el tercer parámetro lo ignora
+
+	* undefined -> no tiene valor por que yo no se lo he dado, null -> le he dado yo el valor ser
+
+	* let -> locales variables a un bloque
+	* var -> variables globales 
+
+	
+
+
+	
 
 
 
