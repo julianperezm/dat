@@ -441,7 +441,7 @@
 
 	* undefined -> no tiene valor por que yo no se lo he dado, null -> le he dado yo el valor ser
 
-	* let -> locales variables a un bloque
+	* let -> 	 locales variables a un bloque
 	* var -> variables globales 
 
 	
