@@ -1,9 +1,33 @@
 'use strict'
 function mtocm(x){
-    return(x * 100);
+    return "La unidad en metros pasado a cm es: " + (x * 100);
 }
 
-let a,b;
+function mtoin(x){
+    return "la unidad en metros pasado a pulgadas es: " + (x / 0.0254);
+}
+
+function mtoyd(x){
+    return "la unidad en metros pasado a yardas es: " + (x / 0.9144);
+}
+
+let a, b, c;
+// pruebas
+
 a=2;
-b=2;
-console.log(suma(a,b));
+
+console.log(mtocm(a));
+console.log(mtoin(a));
+console.log(mtoyd(a));
+
+a=3;
+
+console.log(mtocm(a));
+console.log(mtoin(a));
+console.log(mtoyd(a));
+
+a=4;
+
+console.log(mtocm(a));
+console.log(mtoin(a));
+console.log(mtoyd(a));
