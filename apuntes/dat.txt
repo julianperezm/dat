@@ -446,8 +446,13 @@
 
 	
 
+********
+24/03/20
+********
 
+	* jQuery
 	
+	* Diapo 11 -> nunca se utiliza, se utiliza la de la diapositiva 12
 
 
 
