@@ -20,6 +20,10 @@
         .panel-footer {
             text-align: right;
         }
+
+        .oculto {
+            display: none;
+        }
     </style>
 
 </head>
@@ -34,17 +38,38 @@
                 A continuación pulse para navegar entre las tres paginas
             </div>
             <div class="panel-footer">
-                Para obtener más información pulse el botón
-                <button type="button" class="btn btn-outline-secondary btn-xs">Info</button>
+
+
+                <button id="button1" class="btn btn-primary btn-xm">Mostrar</button>
+                <button id="button2" class="btn btn-secondary btn-xs">Info</button>
             </div>
         </div>
 
-        <ul class="nav nav-pills">
-            <li class="active"><a href="#">Página 1</a></li>
-            <li><a href="nav2.html">Página 2</a></li>
-            <li><a href="nav3.html">Página 3</a></li>
-        </ul>
+        <div id="nav01" class="oculto">
+            <ul class="nav nav-pills">
+                <li class="active"><a href="#">Página 1</a></li>
+                <li><a href="nav2.html">Página 2</a></li>
+                <li><a href="nav3.html">Página 3</a></li>
+            </ul>
+        </div>
+
+        <div id="par" class="oculto">
+            <h2>Information</h2>
+            <p>Al pulsar este boton obtienes mas informacion</p>
+        </div>
     </div>
+
+    <script>
+        $(document).ready(function() {
+            $("#button1").click(function() {
+                $("#nav01").toggleClass("oculto")
+            });
+
+            $("#button2").click(function() {
+                $("#par").toggleClass("oculto")
+            });
+        });
+    </script>
 </body>
 
 </html>
