@@ -449,13 +449,34 @@
 ********
 24/03/20
 ********
-
+	--------
 	* jQuery
-	
+	--------
+		* Evento -> 
+			
+			- click 
+				. toggleClass
+				. 
+
 	* Diapo 11 -> nunca se utiliza, se utiliza la de la diapositiva 12
 
 
+********
+25/03/20
+********
 
+	--------
+	* jQuery
+	--------
+		* Evento -> 
+			
+			- MouseOver
+			- MouseLeave
+				. addClass
+				. removeClass
+			- Text
+				. moment().format()
 
+	Ponerlo siempre fuera excepto que sea solo una linea 
 
 
