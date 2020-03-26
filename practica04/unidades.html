@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<!-- Apellidos: Pérez Muñoz
+ 	 Nombre: Julián Ángel
+ 	 Login: julian -->
+
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Unidades</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC:300&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="../practica03/js02.js"></script>
+
+    <style>
+        * {
+            font-family: 'Noto Sans TC', 300i sans-serif;
+            text-align: center;
+        }
+
+        .masthead {
+            position: relative;
+            width: 100%;
+            height: auto;
+            min-height: 20rem;
+            padding: 10rem 0;
+            background: black;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: scroll;
+            background-size: cover;
+        }
+
+        .masthead h1 {
+            font-size: 5rem;
+            line-height: 5rem;
+            letter-spacing: 0.3rem;
+            font-weight: bold;
+            color: white
+        }
+
+        .masthead p {
+
+            font-size: 1.5rem;
+            color: white
+        }
+
+        a {
+            color: #2594e8;
+            text-decoration: none;
+            background-color: transparent;
+        }
+
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .program {
+            position: relative;
+            width: 100%;
+            height: auto;
+            padding: 5rem;
+            background: #e6e6e6;
+        }
+
+        .btn {
+            background: #2594e8;
+            color: white;
+            border-radius: 5rem;
+            font-size: 0.9rem;
+            letter-spacing: 0.1rem;
+        }
+
+        .btn:hover {
+            background: #52d1ff;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="masthead">
+        <h1>Conversor de Unidades</h1>
+        <p>By:&nbsp;
+            <a href="../practica02/landing.html">Julián Ángel Pérez Muñoz</a>
+        </p>
+    </header>
+
+    <section class="program">
+        <div id="v_in">4</div>
+        <div id="v_out"></div>
+        <br>
+        <br>
+        <div class="row">
+            <div class="col-xs-2 col-xs-offset-2">
+                <button id="boton01" class="btn">Metros</button>
+            </div>
+            <div class="col-xs-2">
+                <button id="boton02" class="btn">Centímetros</button>
+            </div>
+            <div class="col-xs-2">
+                <button id="boton03" class="btn">Pulgadas</button>
+            </div>
+            <div class="col-xs-2">
+                <button id="boton04" class="btn">Yardas</button>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        $(document).ready(function() {
+            $("#boton01").click(function() {
+                let v_text = $("#v_in").text();
+                let v_out = convertvelocity(v_text, 'm');
+                $("#v_out").text(v_out);
+            });
+
+            $("#boton02").click(function() {
+                let v_text = $("#v_in").text();
+                let v_out = convertvelocity(v_text, 'cm');
+                $("#v_out").text(v_out);
+            });
+
+            $("#boton03").click(function() {
+                let v_text = $("#v_in").text();
+                let v_out = convertvelocity(v_text, 'in');
+                $("#v_out").text(v_out);
+            });
+
+            $("#boton04").click(function() {
+                let v_text = $("#v_in").text();
+                let v_out = convertvelocity(v_text, 'yd');
+                $("#v_out").text(v_out);
+            });
+        });
+    </script>
+
+</body>
+
+</html>

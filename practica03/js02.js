@@ -3,6 +3,10 @@ function convertvelocity(x,y){
     if (arguments.length != 2) {
         return "Error: Numero de arguemntos incorrectos";
     }
+    if (isNaN(x)){
+        return "Error: No ha introducido ningun numero";
+    }
+
     switch (y) {
         case ('m'):
             return "La velocidad en metros es: " + x;
