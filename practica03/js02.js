@@ -51,3 +51,8 @@ x = 2;
 y = 'w';
 
 console.log(convertvelocity(x,y));
+
+x = NaN;
+y = 'w';
+
+console.log(convertvelocity(x,y));
