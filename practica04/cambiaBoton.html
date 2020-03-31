@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<!-- Apellidos: Pérez Muñoz
+ 	 Nombre: Julián Ángel
+ 	 Login: julian -->
+
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Cambia Boton</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <style>
+        * {
+            text-align: center;
+        }
+
+        .btn {
+            background: #2594e8;
+            color: white;
+            border-radius: 5rem;
+            font-size: 0.9rem;
+            letter-spacing: 0.1rem;
+        }
+
+        .btn:hover {
+            background: #52d1ff;
+            color: white;
+        }
+
+        .oculto {
+            display: none;
+        }
+    </style>
+
+</head>
+
+<body>
+    <h1>Cambia Botón</h1>
+    <button id="boton01" class="btn">Ver foto</button>
+<br>
+<br>
+    <div id="marco_foto" class="oculto">
+        <img src="images/naturaleza3.jpeg" width="500px" alt="Iglesia">
+    </div>
+    <script>
+        var estado = false;
+        $(document).ready(function() {
+            $("#boton01").click(function() {
+                if (estado == false){
+                    $("#marco_foto").toggleClass("oculto");
+                    $("#boton01").text("ocultar foto");
+                    estado = true;
+                }else {
+                    $("#marco_foto").toggleClass("oculto");
+                    $("#boton01").text("ver foto");
+                    estado = false
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>
