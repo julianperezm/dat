@@ -479,4 +479,8 @@
 
 	Ponerlo siempre fuera excepto que sea solo una linea 
 
+********
+1/04/20
+********
 
+	* length no lleva paréntesis ya que no es ni un método ni una función es una propiedad
