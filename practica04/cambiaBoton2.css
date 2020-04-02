@@ -1,0 +1,66 @@
+* {
+    text-align: center;
+}
+
+.btn {
+    background: #2594e8;
+    color: white;
+    border-radius: 5rem;
+    font-size: 0.9rem;
+    letter-spacing: 0.1rem;
+}
+
+header {
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+}
+
+.btn:hover {
+    background: #52d1ff;
+    color: white;
+}
+
+.oculto {
+    display: none;
+}
+
+footer {
+    padding: 5rem;
+    color: gray;
+}
+
+.btn-francia {
+    background: linear-gradient(90deg, red 33%, white 33%, white 66.66%, blue 66.66%);
+    padding: 0.8rem;
+    border-radius: 5rem
+}
+
+.btn-francia:hover {
+    background-image: linear-gradient(90deg, red 33%, white 33%, white 66.66%, blue 66.66%);
+    padding: 1rem;
+    border-radius: 5rem
+}
+
+.btn-spain {
+    background-image: linear-gradient(red 33%, yellow 33%, yellow 66.66%, red 66.66%);
+    padding: 0.8rem;
+    border-radius: 5rem
+}
+
+.btn-spain:hover {
+    background-image: linear-gradient(red 33%, yellow 33%, yellow 66.66%, red 66.66%);
+    padding: 1rem;
+    border-radius: 5rem
+}
+
+.btn-deutsch {
+    background-image: linear-gradient(black 40%, red 40%, red 70%, yellow 50%);
+    padding: 0.8rem;
+    border-radius: 5rem
+}
+
+.btn-deutsch:hover {
+    background-image: linear-gradient(black 33%, red 33%, red 66.66%, yellow 66.66%);
+    padding: 1rem;
+    border-radius: 5rem
+}
