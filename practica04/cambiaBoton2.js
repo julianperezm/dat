@@ -119,9 +119,4 @@ $("#boton01").click(function() {
         estado = false
     }
 });
-
-$('[data-toggle="tooltip"]').tooltip();
-});
-
-
 });
