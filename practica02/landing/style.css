@@ -2,6 +2,10 @@
     font-family: 'Noto Sans TC', 300i sans-serif;
 }
 
+.videosyt{
+    border-radius: 5rem;
+}
+
 #mainNav {
     min-height: 90px;
     background-color: black;

@@ -14,7 +14,6 @@ function desierto01(altura) {
     radio = 70;
     let colores;
     colores = ['#bdae93', '#827865', '#877758','#a68f60'];
-    // Repetimos el negro, para que predomine
     console.log(colores);
     let i_color = 0; // indice color
     for (let x=0; x <= max_x; x += radio*0.6)
@@ -37,7 +36,6 @@ function desierto02(altura) {
     radio = 70;
     let colores;
     colores = ['#b8ab76', '#807446', '#ad973b','#a68f60'];
-    // Repetimos el negro, para que predomine
     console.log(colores);
     let i_color = 0; // indice color
     for (let x=-0; x <= max_x; x += radio*0.6)
@@ -60,7 +58,6 @@ function vegetal01(altura) {
     radio = 70;
     let colores;
     colores = ['#43ad3b', '#5f875c', '#234a20','#7cb078'];
-    // Repetimos el negro, para que predomine
     console.log(colores);
     let i_color = 0; // indice color
     for (let x=-0; x <= max_x; x += radio*0.6)
@@ -83,7 +80,6 @@ function vegetal02(altura) {
     radio = 70;
     let colores;
     colores = ['#47de65', '#125920', '#9cbaa2','#10cc36'];
-    // Repetimos el negro, para que predomine
     console.log(colores);
     let i_color = 0; // indice color
     for (let x=-0; x <= max_x; x += radio*0.6)
@@ -107,7 +103,6 @@ function vegetal03(altura) {
     radio = 70;
     let colores;
     colores = ['#10cc74', '#1f4735', '#107849','#10cc36'];
-    // Repetimos el negro, para que predomine
     console.log(colores);
     let i_color = 0; // indice color
     for (let x=-0; x <= max_x; x += radio*0.6)
@@ -131,7 +126,6 @@ function urbano01(altura) {
     radio = 70;
     let colores;
     colores = ['#d9d9d9', '#9c9a9a', '#1c1a1a','#737070'];
-    // Repetimos el negro, para que predomine
     console.log(colores);
     let i_color = 0; // indice color
     for (let x=-0; x <= max_x; x += radio*0.6)
@@ -154,7 +148,6 @@ function urbano02(altura) {
     radio = 70;
     let colores;
     colores = ['#d1d1d1', '#d1d1d1', '#261f1f','#fcfcfc'];
-    // Repetimos el negro, para que predomine
     console.log(colores);
     let i_color = 0; // indice color
     for (let x=-0; x <= max_x; x += radio*0.6)
@@ -178,7 +171,6 @@ function marino01(altura) {
     radio = 70;
     let colores;
     colores = ['#b4bdde', '#4c61ad', '#0037ff','#b2bfed'];
-    // Repetimos el negro, para que predomine
     console.log(colores);
     let i_color = 0; // indice color
     for (let x=-0; x <= max_x; x += radio*0.6)
