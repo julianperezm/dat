@@ -2,7 +2,7 @@
 
 import * as vjcanvas from "./vjcanvas.js"
 
-let vc = {};
+let vc = {};  
 vc.min_x = -50;
 vc.max_x = 50;
 vc.min_y = -1;
@@ -10,7 +10,7 @@ vc.max_y = 1;
 
 function dibuja_ejes(){
     let color = "lightgrey";
-    let grosor = 2;
+    let grosor = 1;
     let puntos;
     puntos = [ [vc.min_x,0], [vc.max_x, 0] ];
     vjcanvas.line(puntos, color, grosor);
@@ -35,7 +35,7 @@ function main(){
     dibuja_ejes();
 
     for(let x = vc.min_x; x<= vc.max_x; x += incremento_x){
-        y = Math.sin(x)/x;
+        y = (x + 3)/x
         vjcanvas.dot(x ,y ,color ,grosor);
     }
 
