@@ -1,6 +1,6 @@
 'use strict'
 
-import * as vjcanvas from "./vjcanvas.js"
+import * as vjcanvas from "./vjcanvas2.js"
 
 let vc = {};
 vc.min_x = -50;
@@ -33,9 +33,10 @@ function main(){
     let alpha = 1;
 
     dibuja_ejes();
+    vjcanvas.text(30, -0.8, 'cos(x)/x');
 
     for(let x = vc.min_x; x<= vc.max_x; x += incremento_x){
-        y = Math.sin(x)/x;
+        y = Math.cos(x)/x;
         vjcanvas.dot(x ,y ,color ,grosor);
     }
 
