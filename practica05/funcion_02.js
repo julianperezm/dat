@@ -5,8 +5,8 @@ import * as vjcanvas from "./vjcanvas2.js"
 let vc = {};
 vc.min_x = -50;
 vc.max_x = 50;
-vc.min_y = -1;
-vc.max_y = 1;
+vc.min_y = -10;
+vc.max_y = 10;
 
 function dibuja_ejes() {
     let color = "lightgrey";
@@ -39,7 +39,7 @@ function main() {
     let alpha = 1;
 
     dibuja_ejes();
-    vjcanvas.text(30, -0.8, '(x + 3) / x');
+    vjcanvas.text(30, -8, '(x + 3) / x');
 
     for (let x = vc.min_x; x <= vc.max_x; x += incremento_x) {
         y = (x + 3) / x
