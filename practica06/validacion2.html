@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<!-- Apellidos: Pérez Muñoz
+ 	 Nombre: Julián Ángel
+ 	 Login: julian -->
+
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Validación</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="validacion2.js"></script>
+
+    <style>
+        * {
+            text-align: center;
+        }
+
+        header {
+            position: relative;
+            width: 100%;
+            height: auto;
+            min-height: 20rem;
+            padding: 10rem 0;
+            background: black;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: scroll;
+            background-size: cover;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 5rem;
+            line-height: 5rem;
+            letter-spacing: 0.3rem;
+            font-weight: bold;
+            color: white
+        }
+
+        section {
+            position: relative;
+            width: 100%;
+            height: auto;
+            padding-top: 5rem;
+            padding-bottom: 10rem;
+        }
+
+        .btn {
+            background: #2594e8;
+            color: white;
+            border-radius: 5rem;
+            font-size: 0.9rem;
+            letter-spacing: 0.1rem;
+        }
+
+        .btn:hover {
+            background: #52d1ff;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Validación de Formulario</h1>
+    </header>
+
+
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="form-group col-xs-6">
+                    <h2>Introduzca contraseña</h2>
+                    <label for="contrasenia"></label>
+                    <input type="password" name="contrasenia" id="contrasenia" placeholder="Contraseña" class="form-control">
+                    <br>
+                    <div id="validacion"></div>
+                    <label for="contrasenia2"></label>
+                    <input type="password" name="contrasenia2" id="contrasenia2" placeholder="Contraseña" class="form-control">
+                    <div id="validacion2"></div>
+                    <br>
+                    <button id="boton01" class="btn" disabled>Aceptar</button>
+                    <br>
+                    <br>
+                    <div id="validacion3"></div>
+                </div>
+                <div class="col-xs-6">
+                    <h2>Opciones</h2>
+                    <br>
+                    <button id="boton02" class="btn">Trazar contraseñas</button>
+                    <br>
+                    <br>
+                    <button id="boton03" class="btn">Olvidar contraseñas</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+</body>
+
+</html>
