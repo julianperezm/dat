@@ -1,0 +1,15 @@
+---------
+OPTATIVAS
+---------
+	
+	* Práctica FINAL 1 Landing Page OPTATIVA (Basada en una plantillas bootstrap)
+	* Práctica 3.4 versión 3 (Hablado en el foro, mostrando una lista con todos los errores)
+	* Práctica 5.4 
+	* Práctica 5.5
+	* Práctica FINAL 4, optativa 1
+
+------------------
+ASPECTO DE CALIDAD
+------------------
+	
+	* Diseño

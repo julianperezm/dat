@@ -5,8 +5,6 @@ import * as vjcanvas from "./vjcanvas.js"
 function main(){
     let x, y, ancho, alto, diametro, color, color_borde, ancho_borde;
 
-
-
     let min_x = 0;
     let max_x = 500
     let min_y = 0;
@@ -31,8 +29,6 @@ function main(){
         for (let y=100; y <= 500; y += 150) {
             vjcanvas.circle(x, y, diametro, "#d582ff");
     }
-
-
     for (let x=50; x <= 500; x += 150)
         for (let y=50; y <= 500; y += 150) {
             vjcanvas.circle(x, y, diametro, colores);
@@ -45,13 +41,10 @@ function main(){
         for (let y=0; y <= 500; y += 150) {
             vjcanvas.circle(x, y, diametro, "blue");
     }
-
-
     for (let x=0; x <= 500; x += 150)
         for (let y=50; y <= 500; y += 150) {
             vjcanvas.circle(x, y, diametro, "#7de9f5");
     }
-
     for (let x=100; x <= 500; x += 150)
         for (let y=100; y <= 500; y += 150) {
             vjcanvas.circle(x, y, diametro, "#ff96fa");
