@@ -1,0 +1,110 @@
+
+#mainNav {
+    background-color: black;
+}
+
+#mainNav .navbar-brand {
+    color: #c9c9c9;
+    font-weight: bold;
+}
+
+#mainNav .navbar-brand:hover {
+    color: white;
+}
+
+#mainNav .nav-link {
+    font-size: 12px;
+    color: #c9c9c9;
+}
+
+#mainNav .nav-link:hover {
+    font-size: 12px;
+    color: white;
+}
+
+#mainNav .navbar-nav .nav-item:hover {
+    outline: none;
+    background-color: transparent;
+}
+
+#mainNav .navbar-nav .nav-item {
+   padding: 0 2rem;
+}
+
+#mainNav .navbar-nav .nav-item .dropdown-menu{
+    font-size: 0.8rem;
+    background-color: white;
+    width: 300px;
+}
+
+#mainNav .navbar-nav .nav-item .dropdown-item:hover{
+    text-decoration: underline;
+}
+
+header{
+    background: linear-gradient(to right, #c6a5f7, #a000ff);
+}
+header .titulo{
+    padding-top: 15rem;
+    padding-bottom: 20rem;
+    padding-left: 8rem;
+}
+
+.titulo h1{
+    font-size: 6rem;
+    font-weight: bold;
+}
+
+section .introduccion{
+    padding-left: 8rem;
+    padding-right: 8rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+
+.introduccion h2{
+    font-size: 3rem;
+}
+
+
+.componentes{
+    padding: 15rem;
+    background-color: black;
+}
+
+.componentes h2{
+    font-size: 6rem;
+    color: white;
+    font-weight: bold;
+}
+
+.componentes p{
+    font-size: 0.7rem;
+    color: white;
+}
+
+section .seccion{
+    padding: 2rem 6rem;
+}
+
+
+section .seccion h2{
+    font-size: 4rem ;
+    font-weight: bold;
+}
+
+section .seccion h3{
+    font-size: 2.3rem ;
+
+}
+
+p{
+    font-size: 1.1rem;
+    font-weight:280;
+}
+footer{
+    background-color: #999999;
+    padding: 4rem 0;
+    font-size: 0.7rem;
+}
