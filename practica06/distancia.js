@@ -6,8 +6,6 @@
 function guardarUbicacionCasa(longitudCasa, latitudCasa){
     localStorage.setItem("longitudCasa", longitudCasa);
     localStorage.setItem("latitudCasa", latitudCasa);
-    console.log("HE PULSADO EL BOTON")
-
 }
 
 function marcarMapa(mapa){
@@ -25,17 +23,14 @@ function marcarMapa(mapa){
 		fillOpacity: 0.5
 	}).addTo(mapa);
     L.marker([b, a], {icon: casa}).addTo(mapa);
-
-    console.log(b);
-    console.log(a);
 }
+
 function guardarMiUbicacion() {
     let options = {
         enableHighAccuracy: true,
         timeout: 5000,
         maximumAge: 0
     };
-
 
     function success(pos) {
         let x = pos.coords;
@@ -73,7 +68,6 @@ function comprobarDistancia(){
 
     let dkm = d*100
 
-    console.log(dkm)
     if (dkm < 0.5){
         return "Estas a menos de 500m de casa, ¡Todo va bien!"
     }else if (0.5 < dkm < 0.75 ){
@@ -102,9 +96,6 @@ $(document).ready(function() {
         let longitudCasa = $("#longitudcasa").val();
         let latitudCasa = $("#latitudcasa").val();
         guardarUbicacionCasa(longitudCasa, latitudCasa);
-        //console.log(longitudCasa);
-        //console.log(latitudCasa);
-        console.log("HE PULSADO EL BOTON")
     });
 
     marcarMapa(mi_mapa)

@@ -58,8 +58,6 @@ function dibujar(latitud, longitud, radio,mapa, contagiados,altas,fallecidos){
 $(document).ready(function() {
 
     let objeto=JSON.parse(datos);
-    console.log(typeof(objeto),objeto);
-    console.log(objeto[0][0])
     let zoom=7;
     let mi_mapa = L.map('id_mapa').setView([40.417, -3.703], zoom);
     L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {

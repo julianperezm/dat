@@ -79,7 +79,7 @@
         }
         footer{
             background-color: #999999;
-            padding: 4rem 0;
+            padding: 4rem;
             font-size: 0.7rem;
         }
     </style>
@@ -88,9 +88,11 @@
 <body>
     <header>
         <div class="container titulo">
-            <h5>Trabajo Final</h5>
-            <h1>Componentes Bootstrap</h1>
             <h4>Desarrollo de Aplicaciones Telemáticas</h4>
+            <h1>Componentes Bootstrap</h1>
+            <br>
+            <h5>Julián Ángel Pérez Muñoz</h5>
+            <h6>Ingeniería en Tecnologías de las Telecomunicaciones</h6>
         </div>
     </header>
 
@@ -100,17 +102,17 @@
         <div class="container introduccion">
             <h2>Introducción</h2>
             <hr>
-            <p>Para comenzar vamos a hacer un pequeño recordatorio de que es bootstrap y de los conceptos que hemos dado en la asigntura sobre este.</p>
+            <p>Para comenzar vamos a hacer un pequeño recordatorio de qué es bootstrap y de los conceptos que hemos dado en la asignatura sobre este.</p>
             <h4>¿Qué es Bootstrap?</h4>
             <p>Bootstrap es un framework de código libre que ayuda a desarrollar aplicaciones web con  una interfaz limpia y sencilla, sus ventajas son varias,
                 desde la compatibilidad con distintas plataformas hasta un comportamiento responsivo de los navegadores con la ayuda de su sistema GRID.</p>
             <h4>Conceptos dados en la asignatura</h4>
-            <p>En la asignatura comenzamos con las características más importantes de bootstrap como el uso del viewport virtual o el comportamiento resposive
-            con el uso de Grid. También vimos la herramienta que se utiliza para la detección de algunos errores en el html de diseños de bootstrap llamada bootlint.
-            Tras esto comenzamos con el estudio tanto teórico como práctico de algunos de los componentes mas importantes de bootstrap como pueden ser los paneles, botones,
+            <p>En la asignatura comenzamos con las características más importantes de bootstrap, como son el uso del viewport virtual o el comportamiento resposive
+            con el uso de Grid. También vimos la herramienta que se utiliza para la detección de algunos errores en el html de diseños de bootstrap, llamada bootlint.
+            Tras esto comenzamos con el estudio tanto teórico como práctico de algunos de los componentes más importantes de bootstrap, como pueden ser los paneles, botones,
             nav o dropdowns.</p>
             <p>El objetivo de este guión es aumentar los conocimientos sobre los componentes de bootstrap y seguir trabjando con estos. Nos centraremos en la versión más
-            reciente de bootstrap que es la version 4.5 </p>
+            reciente de bootstrap, la versión 4.5 </p>
         </div>
     </section>
     <p></p>
@@ -119,7 +121,7 @@
         <div class="container text-center">
             <h2>Componentes</h2>
             <hr>
-            <p>A continuación voy a explicar conceptualmente los componentes que me parecen mas relevantes de los que no hemos visto en clase con ejemplos basicos de estos</p>
+            <p>A continuación voy a explicar conceptualmente los componentes que me parecen más relevantes de los que no hemos visto en clase con ejemplos básicos de estos.</p>
         </div>
     </section>
 
@@ -129,24 +131,24 @@
         <div class="container seccion">
             <h2>Badge</h2>
             <br>
-            <p>Gracias a diferentes componentes bootstrap podemos resaltar de diferente forma los  elementos de nuestro html, uno de estos componentes es 'badge', este consiste en un
-            pequeño recuadro cerca del correspondiente elemento con el texto que tu le atribuyas o con el texto que quieras mostrar al lector de manera llamativa. A contuacion
-            podrás ver los usos mas destacados de este componente.</p>
-            <p><a data-toggle="collapse" data-target="#badgee" href="#">Mas información ></a></p>
+            <p>Gracias a diferentes componentes bootstrap podemos resaltar de diferente forma los elementos de nuestro html, uno de estos componentes es 'badge', este consiste en un
+            pequeño recuadro cerca del correspondiente elemento con el texto que tú le atribuyas o con el texto que quieras mostrar al lector de manera llamativa. A continuación
+            podrás ver los usos más destacados de este componente.</p>
+            <p><a data-toggle="collapse" data-target="#badgee" href="#">Más información ></a></p>
             <div id="badgee" class="collapse">
                 <br>
                 <h3>Básico</h3>
                 <hr>
                 <div class="row align-items-center">
                     <div class="col col-sm-6">
-                        <p>Si queremos añadir información adicional a cualquier contenido de manera básica utilizando este componente nos valdría con añadir la siguiente clase</p>
+                        <p>Si queremos añadir información adicional a cualquier contenido de manera básica utilizando este componente nos valdría con añadir la siguiente clase:</p>
                         <code> class = "badge badge-secondary"</code><br>
                         <p>Esta clase la podemos insertar a diferentes elementos del html como h1, h2, etc. Del mismo modo que aumenta el tamaño del texto aumenta el badge. </p>
                         <br>
                         <h2> Pantalón 10€ <span class="badge badge-secondary">Oferta</span></h2>
                         <h6> Pantalón 10€ <span class="badge badge-secondary">Oferta</span></h6>
                         <br>
-                        <p>También podemos insertarlo en botones del mismo modo indicado anteriormente pero con el elemento correspondiente del botón</p>
+                        <p>También podemos insertarlo en botones del mismo modo indicado anteriormente pero con el elemento correspondiente del botón.</p>
                     </div>
                 </div>
                 <br>
@@ -178,16 +180,16 @@
         <div class="container seccion">
             <h2>Card</h2>
             <br>
-            <p>Este componente te permite de una manera elegante y sencilla crear una tarjeta a la cual puedes insertar diferentes elementos html, se pueden realizar varias modificaciones
-                a este componente que están explicadas a continuaión. El componente 'card' puede resultar muy útil cuando quieres que un mensaje o un conjunto de estos se visualize en tu página
+            <p>Este componente te permite, de una manera elegante y sencilla, crear una tarjeta a la cual puedes insertar diferentes elementos html, se pueden realizar varias modificaciones
+                a este componente que están explicadas a continuación. El componente 'card' puede resultar muy útil cuando quieres que un mensaje o un conjunto de estos se visualice en tu página
                 de una manera llamativa y ordenada.</p>
-            <p><a data-toggle="collapse" data-target="#cardd" href="#">Mas información ></a></p>
+            <p><a data-toggle="collapse" data-target="#cardd" href="#">Más información ></a></p>
             <div id="cardd" class="collapse">
                 <h3>Títulos, Texto y links</h3>
                 <hr>
                 <div class="row align-items-center">
                     <div class="col col-sm-6">
-                        <p>Para poder insertar un título, subtítulo o crear links en el interior de la tarjeta los podemos crear con las siguientes clases</p>
+                        <p>Para poder insertar un título, subtítulo o crear links en el interior de la tarjeta los podemos crear con las siguientes clases:</p>
                         <code>class="card-title"</code>
                         <code>class="card-subtitle"</code>
                         <code>class="card-text"</code>
@@ -227,7 +229,7 @@
                     </div>
                     <div class="col col-sm-6">
                         <p>También podemos añadir diferentes elementos como cabeceras, pie de tarjeta, botones, etc.
-                        Mediantes las siguientes clases</p>
+                        Mediante las siguientes clases:</p>
                         <code>class="card-header"</code>
                         <code>class="card-body"</code>
                         <code>class="card-footer"</code><br>
@@ -241,7 +243,7 @@
                         <p>Podemos utilizar barras de navegación en las tarjetas con la siguiente clase:</p>
                             <code>class="nav nav-tabs card-header-tabs"</code><br>
                             <br>
-                            <p>cada una de las penstañas deberan tener la clase</p>
+                            <p>Cada una de las pestañas deberá tener la clase:</p>
                             <code>class="nav-item"</code><br>
                             <br>
                     </div>
@@ -281,8 +283,8 @@
                             </div>
                     </div>
                     <div class="col col-sm-6">
-                            <p>Otra uso bastante interesante es poder cambiar el estilo de las tarjetas mediante
-                            las siguientes clases</p>
+                            <p>Otro uso bastante interesante es poder cambiar el estilo de las tarjetas mediante
+                            las siguientes clases:</p>
                             <code>class="card bg-success"</code>
                             <code>class="card bg-danger"</code>
                             <code>class="card bg-info"</code><br>
@@ -302,18 +304,18 @@
             <h2>Collapse</h2>
             <br>
             <p>El componente collapse es una opción muy interesante si lo que buscas es mostrar/ocultar contenido en tu página web, este componente es bastante útil
-            si no quieres sobrecargar tu página con tanta información que sature al lector, también se puede llevar a otro ámbitos como el ocultar botones, enlaces, etc </p>
-            <p><a data-toggle="collapse" data-target="#collapsee" href="#">Mas información ></a></p>
+            si no quieres sobrecargar tu página con tanta información que sature al lector, también se puede llevar a otros ámbitos como el ocultar botones, enlaces, etc.</p>
+            <p><a data-toggle="collapse" data-target="#collapsee" href="#">Más información ></a></p>
             <div id="collapsee" class="collapse">
                 <h3>Básico</h3>
                 <hr>
                 <div class="row align-items-center">
                     <div class="col col-sm-6">
-                         <p>Si creamos diferentes elementos podemos crear un collapse de una forma simple tan solo añadiendole la clase  </p>
+                         <p>Si creamos diferentes elementos podemos crear un collapse de una forma simple tan solo añadiendole la clase:  </p>
                         <code> data-toggle="collapse"</code><br>
                         <br>
-                        <p>Debes crear el mismo id para el elemento y el contenido que quieres mostrar/ocultar </p>
-                        <a data-toggle="collapse" data-target="#demo" href="#">Mas información ></a>
+                        <p>Debes crear el mismo id para el elemento y el contenido que quieres mostrar/ocultar. </p>
+                        <a data-toggle="collapse" data-target="#demo" href="#">Más información ></a>
                         <div id="demo" class="collapse">
                         Esto es un ejemplo basico de un collapse
                         </div>
@@ -327,8 +329,8 @@
                         <p>Para modificar  el comportamiento por defecto de la clase collapse y darle un aspecto diferente podemos utilzar la clase:</p>
                         <code>class="accordion"</code><br>
                         <br>
-                        <p>Y dentro de de esta insertamos la clase card como ya hemos hecho anteriormente y dentro de la clase card
-                        utilizaremos la clase collapse</p>
+                        <p>Y dentro de esta insertamos la clase card como ya hemos hecho anteriormente y dentro de la clase card
+                        utilizaremos la clase collapse.</p>
                     </div>
                     <div class="col col-sm-6">
                         <div id="accordion">
@@ -369,18 +371,18 @@
         <div class="container seccion">
             <h2>Pagination</h2>
             <br>
-            <p>En el caso de que nuestra página sea tan extensa que queramos utilizar distintas páginas o tenemos una sección que sea tan pesada visualmente que necesites ordenarlas en diferentes
-                páginas y necesitamos navegar facilmente por estas, Bootstrap tiene un componente que nos permite realizar esta acción de manera sencilla llamada pagination</p>
-            <p><a data-toggle="collapse" data-target="#paginationn" href="#">Mas información ></a></p>
+            <p>En el caso de que nuestra página sea tan extensa que queramos utilizar distintas páginas o tengamos una sección que sea tan pesada visualmente que queramos ordenarlas en diferentes
+                páginas y necesitemos navegar facilmente por estas, Bootstrap tiene un componente que nos permite realizar esta acción de manera sencilla llamada pagination.</p>
+            <p><a data-toggle="collapse" data-target="#paginationn" href="#">Más información ></a></p>
             <div id="paginationn" class="collapse">
                 <h3>Básico</h3>
                 <hr>
                 <div class="row align-items-center">
                     <div class="col col-sm-6">
-                        <p>Con la siguiente clase podemos añadir numeros de pagina de una manera básica y sencilla.</p>
+                        <p>Con la siguiente clase podemos añadir números de página de una manera básica y sencilla.</p>
                         <code> class = "pagination"</code><br>
                         <br>
-                        <p> cada elemento del pagination debe llevar la clase</p>
+                        <p> Cada elemento del pagination debe llevar la clase:</p>
                         <code> class = "page-item"</code><br>
                         <br>
                     </div>
@@ -398,7 +400,7 @@
                 <div class="row align-items-center">
                     <div class="col col-sm-6">
                         <p>Podemos modificar los números de página de diferente forma, como puede ser activar o desactivar un
-                        apartado mediante</p>
+                        apartado mediante:</p>
                         <code>class = "page-item active/disabled"</code><br>
                         <br>
                         <ul class="pagination">
@@ -406,7 +408,7 @@
                             <li class="page-item"><a class="page-link" href="#">2</a></li>
                             <li class="page-item disabled"><a class="page-link" href="#">3</a></li>
                         </ul>
-                        <p>También podemos cambiar el tamaño</p>
+                        <p>También podemos cambiar el tamaño:</p>
                         <code>class = "pagination pagination-lg"</code><br>
                         <br>
                         <ul class="pagination pagination-lg">
@@ -426,21 +428,21 @@
         <div class="container seccion">
             <h2>Popovers</h2>
             <br>
-            <p>En Bootstrap tenemos un componente que nos permite añadir información adicional a nuestros elementos creados, esto resulta
-                útil cuando quieres dar una pequeña información sobre el elemento, ya sea algún tip, alguna instrucción realcionada con el elemento
-                y no quieras ocupar espacio de tu web o lo quieres tener oculto ya que este componente se activa al pulsar en él </p>
-            <p><a data-toggle="collapse" data-target="#popoverss" href="#">Mas información ></a></p>
+            <p>En Bootstrap tenemos un componente que nos permite añadir información adicional a nuestros elementos creados. Esto resulta
+                útil cuando quieres dar una pequeña información sobre un elemento y no ocupar espacio en la web. Esta información puede ser algún tip o
+                alguna instrucción oculta relacionada con este, ya que los popovers se activan al pulsar en ellos. </p>
+            <p><a data-toggle="collapse" data-target="#popoverss" href="#">Más información ></a></p>
             <div id="popoverss" class="collapse">
                 <h3>Básico</h3>
                 <hr>
                 <div class="row align-items-center">
                     <div class="col col-sm-6">
-                         <p>Si queremos usar de manera básica la clase popover para añadir texto a algun elemento de nuestro html
-                         se utilizaria con el atributo</p>
+                         <p>Si queremos usar de manera básica la clase popover para añadir texto sobre algún elemento de nuestro html
+                         se utilizaría con el atributo:</p>
                         <code> data-toggle="popover"</code><br>
                         <br>
-                        <p>Si queremos utilizar el componente  de este modo deberemos añadir a nuestro html un script
-                        con el siguiente codigo:</p>
+                        <p>Si queremos utilizar el componente  de este modo debemos añadir a nuestro html un script
+                        con el siguiente código:</p>
                         <pre><code>$(function () {</code></pre>
                         <pre>   $('[data-toggle="popover"]').popover()</pre>
                         <pre>})</pre>
@@ -457,8 +459,8 @@
                 <hr>
                 <div class="row align-items-center">
                     <div class="col col-sm-6 text-center">
-                        <button type="button" class="btn btn-primary" data-container="body" title="Titulo Popover" data-toggle="popover" data-placement="top" data-content="Esto es un popover de prueba">
-                            Popover Titulo
+                        <button type="button" class="btn btn-primary" data-container="body" title="Título Popover" data-toggle="popover" data-placement="top" data-content="Esto es un popover de prueba">
+                            Popover Título
                         </button>
                         <br>
                         <br>
@@ -472,17 +474,17 @@
                         <a tabindex="0" class="btn btn-warning" role="button" data-toggle="popover" data-trigger="focus" title="Popover de aviso" data-content="Ten cuidado al pulsar, es un aviso">Cuidado!</a>
                     </div>
                     <div class="col col-sm-6">
-                        <p>Podemos añadir títulos a nuestro popover mediante el atributo</p>
+                        <p>Podemos añadir títulos a nuestro popover mediante el atributo:</p>
                         <code>title="titulo de prueba"</code><br>
                         <br>
-                        <p>Otra opción bastante interesante es deshabilitarlo, con el uso del atributo</p>
+                        <p>Otra opción bastante interesante es deshabilitarlo, con el uso del atributo:</p>
                         <code>data-content="Disabled popover"</code><br>
                         <br>
-                        <p>En el caso de que nuestro popover sean un botón podemos cambiar el contexto como en muchos otros
-                            componentes con la clase</p>
+                        <p>En el caso de que nuestro popover sea un botón podemos cambiar el contexto como en muchos otros
+                            componentes con la clase:</p>
                         <code>class="btn btn-warning"</code>
-                         <p>para este caso tendremos que utiliar el elemento 'a' y no el 'button' para un
-                             mejor comportamiento y debemos añadir el atributo</p>
+                         <p>Para este caso tendremos que utilizar el elemento 'a' y no el 'button' para un
+                             mejor comportamiento y debemos añadir el atributo:</p>
                         <code>tabindex="0"</code><br>
                     </div>
                 </div>
@@ -496,9 +498,9 @@
         <div class="container seccion">
             <h2>Progress</h2>
             <br>
-            <p>Una barra de progreso en tu página web puede ser interesante en distintos aspectoa, como comprobar la seguridad de unas contraseñas, o
-             contabilizar el porcetaje de progreso de cualquier acción de tu página, todo esto y mucho más lo podemos conseguir gracias a este componente</p>
-            <p><a data-toggle="collapse" data-target="#progress" href="#">Mas información ></a></p>
+            <p>Una barra de progreso en tu página web puede ser interesante en distintos aspectos, como comprobar la seguridad de unas contraseñas, o
+             contabilizar el porcentaje de progreso de cualquier acción de tu página. Todo esto y mucho más lo podemos conseguir gracias a este componente.</p>
+            <p><a data-toggle="collapse" data-target="#progress" href="#">Más información ></a></p>
             <div id="progress" class="collapse">
                 <h3>Básico</h3>
                 <hr>
@@ -507,7 +509,7 @@
                          <p>Las barras de progreso se pueden utilizar de una manera básica con tan solo añadir la clase:</p>
                         <code> class="progress"</code><br>
                         <br>
-                        <p>Si queremos llenarla al 50% por ejemplo lo podemos hacer utilizando</p>
+                        <p>Si queremos llenarla al 50%, por ejemplo, lo podemos hacer utilizando:</p>
                         <code>class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"</code>
                     </div>
                     <div class="col col-sm-6 text-center">
@@ -536,8 +538,8 @@
                         </div>
                     </div>
                     <div class="col col-sm-6">
-                        <p>Otra opción bastante interesesante es añadir una etiqueta de progreso en la misma barra y se haría
-                        añadiendo texto en el div en el que has indicado que vas a crear la barra de progreso</p>
+                        <p>Otra opción bastante interesante es añadir una etiqueta de progreso en la misma barra. Se haría
+                        añadiendo texto en el div en el que has indicado que vas a crear la barra de progreso.</p>
                     </div>
                 </div>
                 <br>
@@ -545,12 +547,12 @@
                 <hr>
                 <div class="row align-items-center">
                     <div class="col col-sm-6">
-                        <p>Podemos dar diferentes aspectos a la barra de progreso según lo que queramos expresar, utilizando las
-                        variaciones contextuales como en los componentes anteriores</p>
+                        <p>Podemos dar diferentes aspectos a la barra de progreso, según lo que queramos expresar, utilizando las
+                        variaciones contextuales como en los componentes anteriores.</p>
                         <code>class="progress-bar bg-info/danger/warning"</code><br>
                         <br>
                         <p>Otra opción es utilizar estos estilos en una misma barra. En este caso
-                        iremos cambiando el atributo style según la cantidad que queramos expresar</p>
+                        iremos cambiando el atributo style según la cantidad que queramos revelar.</p>
                         <code>style="width: 30%"</code>
                     </div>
                     <div class="col col-sm-6">
@@ -588,11 +590,11 @@
                         </div>
                     </div>
                     <div class="col col-sm-6">
-                        <p>Un forma de cambiar el aspecto aparte de los colores puede ser el añadir rayas a la barra y esto
-                        se puede realizar añadiendo la clase </p>
+                        <p>Una forma de cambiar el aspecto, aparte de los colores, puede consistir en añadir rayas a la barra y esto
+                        se puede realizar añadiendo la clase: </p>
                         <code>class="progress-bar progress-bar-striped"</code><br>
                         <br>
-                        <p>Podemos hacer que estás rayas se muevan y hacer un diseño más animado añadiendo la clase</p>
+                        <p>Podemos hacer que estas rayas se muevan y hacer un diseño más animado añadiendo la clase:</p>
                         <code>class="progress-bar progress-bar-striped progress-bar-animated"</code>
                     </div>
                 </div>
@@ -606,18 +608,18 @@
         <div class="container seccion">
             <h2>Spinner</h2>
             <br>
-            <p>El componente spinner en bootstrap permite informar al usuario de manera gráfica sobre un proceso que se esta realizando en el momento, como la petición de un recurso
-            o el cambio a otra web</p>
-            <p><a data-toggle="collapse" data-target="#spinners" href="#">Mas información ></a></p>
+            <p>El componente spinner en bootstrap permite informar al usuario de manera gráfica sobre un proceso que se está realizando en el momento, como la petición de un recurso
+            o el cambio a otra web.</p>
+            <p><a data-toggle="collapse" data-target="#spinners" href="#">Más información ></a></p>
             <div id="spinners" class="collapse">
                 <h3>Básico</h3>
                 <hr>
                 <div class="row align-items-center">
                     <div class="col col-sm-6">
-                        <p>El uso más básico del componente spinner de bootstrap se realiza añadiendo a nuestro elemento la clase</p>
+                        <p>El uso más básico del componente spinner de bootstrap se realiza añadiendo a nuestro elemento la clase:</p>
                         <code>class="spinner-border"</code><br>
                         <br>
-                        <p>Para eliminar el texto de nuestro elemento debemos añadir a este la clase</p>
+                        <p>Para eliminar el texto de nuestro elemento debemos añadir a este la clase:</p>
                         <code>class="sr-only"</code>
                     </div>
                     <div class="col col-sm-6 text-center">
@@ -646,7 +648,7 @@
                     </div>
                     <div class="col col-sm-6">
                         <p>Utilizando diferentes variaciones contextuales podemos cambiar el color de nuestro spinner, utilizando
-                        las clases</p>
+                        las clases:</p>
 
                         <code>class="spinner-border text-primary/info/warning/danger"</code>
                     </div>
@@ -657,10 +659,10 @@
                 <div class="row align-items-center">
                     <div class="col col-sm-6">
                         <p>Podemos cambiar el diseño del spinner utilizando una clase diferente a la anterior pero del mismo modo,
-                            la clase es</p>
+                            la clase es:</p>
                         <code>class="spinner-grow"</code><br>
                         <br>
-                        <p>En este caso al igual que el anterior podemos cambiar de colo del mismo modo, con las clases</p>
+                        <p>En este caso al igual que el anterior podemos cambiar de color del mismo modo, con las clases:</p>
                         <code>class="spinner-grow text-primary/info/warning/danger"</code>
                     </div>
                 </div>
@@ -681,11 +683,11 @@
                     </div>
                     <div class="col col-sm-6">
                         <p>Podemos meter los spinners en diferentes elementos como pueden ser botones, dentro del elemento "button"
-                        incluiremos un span con los mismos datos que antes</p>
+                        incluiremos un span con los mismos datos que antes:</p>
                         <code>class="spinner-border"</code><br>
                         <br>
-                        <p>En este caso podemos ocultar el texto  o no con el atributo que hemos visto antes</p>
-                        <p>Y la igual si queremos cambiar el icono del spinner</p>
+                        <p>En este caso podemos ocultar el texto  o no con el atributo que hemos visto antes.</p>
+                        <p>Y al igual si queremos cambiar el icono del spinner:</p>
                         <code>class="spinner-grow"</code>
                     </div>
                 </div>
@@ -695,7 +697,9 @@
 
 
     <footer>
-        Información sacada de las paginas w3scholls y getbootrstrap y los codigos adaptados por mi
+        Trabajo final de la asignatura Desarrollo de Aplicaciones Telemáticas sobre componentes de bootstrap. Las fuentes de información principales son las páginas
+        <a href="https://www.w3schools.com">w3schools</a> y <a href="https://getbootstrap.com">getbootstrap</a>, el código que hay en este documento ha sido adaptado
+        por el alumno para un uso adecuado de la guía y una mejor compresión de los componentes descritos.
     </footer>
 
     <script>
