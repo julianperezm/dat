@@ -1,8 +1,5 @@
 'use strict'
 
-//Latitud: 40.318754
-//Longitud: -3.8534438
-
 function guardarUbicacionCasa(longitudCasa, latitudCasa){
     localStorage.setItem("longitudCasa", longitudCasa);
     localStorage.setItem("latitudCasa", latitudCasa);
