@@ -77,33 +77,30 @@
          return "Fuera del area permitida ¡Irresponsable!"
      }
  }
+//NECESARIO ACEPTAR PERMITIR UBICACION Y TRAS ESTO RECARGAR LA PAGINA PARA QUE SE MUESTRE EL MAPA
+$(document).ready(function() {
+    guardarMiUbicacion()
+    let coordenadaxpersona = localStorage.getItem(("latitudpersona"));
+    let coordenadaypersona = localStorage.getItem(("longitudpersona"));
 
- $(document).ready(function() {
-     guardarMiUbicacion()
-     let coordenadaxpersona = localStorage.getItem(("latitudpersona"));
-     let coordenadaypersona = localStorage.getItem(("longitudpersona"));
+    let zoom=15;
+    let mi_mapa = L.map('id_mapa').setView([coordenadaxpersona,coordenadaypersona], zoom);
+    L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
+     attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a>'
+    }).addTo(mi_mapa);
 
-     let zoom=15;
-     let mi_mapa = L.map('id_mapa').setView([coordenadaxpersona,coordenadaypersona], zoom);
-     L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
-         attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a>'
-     }).addTo(mi_mapa);
+    marcarMapaUbicacion(mi_mapa)
 
-     marcarMapaUbicacion(mi_mapa)
+    $("#botonposicioncasa").click(function() {
+     let longitudCasa = $("#longitudcasa").val();
+     let latitudCasa = $("#latitudcasa").val();
+     guardarUbicacionCasa(longitudCasa, latitudCasa);
+    });
 
-     $("#botonposicioncasa").click(function() {
-         let longitudCasa = $("#longitudcasa").val();
-         let latitudCasa = $("#latitudcasa").val();
-         guardarUbicacionCasa(longitudCasa, latitudCasa);
-         //console.log(longitudCasa);
-         //console.log(latitudCasa);
-         console.log("HE PULSADO EL BOTON")
-     });
+    marcarMapa(mi_mapa)
 
-     marcarMapa(mi_mapa)
+    let distancia = comprobarDistancia()
 
-     let distancia = comprobarDistancia()
-
-     $("#distancia").text(distancia);
+    $("#distancia").text(distancia);
 
  });
